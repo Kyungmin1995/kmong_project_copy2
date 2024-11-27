@@ -25,6 +25,8 @@ import MesseageIcon from "@/assets/icon/message.svg";
 import HeartIcon from "@/assets/icon/heart-2.svg";
 import { useRouter } from "expo-router";
 
+// 인덱스 페이지 변경할때 보더 폴더로 이동
+
 // 공지사항
 const AnnouncementComponent = () => {
   const renderItem = ({ item }: { item: AnnouncementdataType }) => {
@@ -123,7 +125,7 @@ const NoticeBoardCommentComponent = () => {
 
   const navigation = (data: any) => {
     navigate.push({
-      pathname: "/boaderDetail",
+      pathname: "/boarder/boaderDetail",
       params: {
         data: JSON.stringify(data),
       },

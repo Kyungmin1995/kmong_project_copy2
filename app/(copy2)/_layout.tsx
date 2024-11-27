@@ -14,14 +14,40 @@ export default function StackLayout() {
         <Stack.Screen
           name="index"
           options={{
-            title: "우리 마을 소식",
             headerShown: false,
           }}
         />
         <Stack.Screen
-          name="boaderDetail"
+          name="boarder"
           options={{
-            title: "",
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="watchlist"
+          options={{
+            title: "관심 목록",
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="post"
+          options={{
+            title: "내가 쓴 글/댓글",
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="chat"
+          options={{
+            title: "채팅",
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="profile"
+          options={{
+            title: "프로필 설정",
             headerShown: false,
           }}
         />

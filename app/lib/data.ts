@@ -217,6 +217,12 @@ export const NoticeBoardData: NoticeBoardDataType[] = [
         img: require("@/assets/images/NoticeBoard/item1.png"),
         text: `네넵`,
       },
+      {
+        sender: "A 9호 김연우",
+        date: "지금",
+        img: require("@/assets/images/NoticeBoard/item1.png"),
+        text: `지금 오시죠?`,
+      },
     ],
   },
   {
